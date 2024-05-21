@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    background-size: cover, 100vh;
+    background-repeat: no-repeat;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 40%, rgba(0,212,255,1) 100%);
+    position: absolute, center;
+ 
+}
+
+#h1id{
+    text-align: center;
+}
+
+#smile {
+    width: 200px;
+    height: 30%;
+    text-align: center;
+    margin-top: auto;
+}
+
+
+form {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 5pl0px;
+    margin-top: 1px;
+    border-top: 1px;
+    padding-top: 1px;
+}
+
+#name{
+    color: blue;
+}
+
+#email{
+    color: rgb(117, 117, 255);
+}
+
+#password{
+    color: rgb(181, 181, 255);
+}
+
+#password_confirmation{
+    color: rgb(225, 225, 255);
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 22px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: rgb(121, 196, 246);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgba(134, 134, 255, 0.664);
+  }
+  
+  .button:hover {background-color: rgb(139, 195, 255)}
+  
+  .button:active {
+    background-color: rgb(94, 94, 255);
+    box-shadow: 0 5px rgb(175, 224, 255);
+    transform: translateY(4px);
+  }

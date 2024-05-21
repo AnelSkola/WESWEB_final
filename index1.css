@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    background-size: cover, 100vh;
+    background-repeat: no-repeat;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 40%, rgba(0,212,255,1) 100%);
+    position: absolute, center;
+ 
+}
+
+#h1id{
+    text-align: center;
+    /*background: -webkit-linear-gradient(0deg, rgb(7, 7, 7) 20%, rgb(54, 79, 218) 40%, rgb(18, 205, 242) 60%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;*/
+}
+
+#chat-box {
+    color: white;
+}
+
+
+h1 {
+    font-size: 5pl0px;
+    margin-top: 1px;
+    border-top: 1px;
+    padding-top: 1px;
+    color: white;
+}
+
+
+  em{
+    text-align: center;
+  }
+
+
+  #formid {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px; 
+    z-index: 1000; 
+}
+
+#formid input[type="text"],
+#formid input[type="submit"] {
+    margin: 5px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+#formid input[type="submit"] {
+    background-color: #007bff; 
+    color: #fff; 
+    cursor: pointer;
+    border: none;
+}
+
+#formid input[type="submit"]:hover {
+    background-color: #0056b3; 
+}
